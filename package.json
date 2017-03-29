@@ -1,6 +1,6 @@
 {
   "name": "defp",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Define object properties in an easier way",
   "main": "index.js",
   "scripts": {
