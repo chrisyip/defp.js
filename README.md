@@ -1,5 +1,7 @@
 # defp.js
 
+[![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Travis CI][travis-image]][travis-url] [![codecov][codecov-image]][codecov-url]
+
 Define object properties in an easier way. Inspired by [prr](https://github.com/rvagg/prr).
 
 ## Install
@@ -89,3 +91,11 @@ Note:
 
 - If `VALUE` contains one of these keys: `get`, `set`, `value`, `enumerable`, `configurable`, `defp` will treat `VALUE` as a descriptor.
 
+[npm-url]: https://npmjs.org/package/defp
+[npm-image]: http://img.shields.io/npm/v/defp.svg?style=flat-square
+[daviddm-url]: https://david-dm.org/chrisyip/defp.js
+[daviddm-image]: http://img.shields.io/david/chrisyip/defp.js.svg?style=flat-square
+[travis-url]: https://travis-ci.org/chrisyip/defp.js
+[travis-image]: http://img.shields.io/travis/chrisyip/defp.js.svg?style=flat-square
+[codecov-url]: https://codecov.io/gh/chrisyip/defp.js
+[codecov-image]: https://img.shields.io/codecov/c/github/chrisyip/defp.js.svg?style=flat-square
