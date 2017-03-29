@@ -1,0 +1,33 @@
+{
+  "name": "defp",
+  "version": "0.0.0",
+  "description": "Define object properties in an easier way",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "nyc ava",
+    "coverage": "nyc report --reporter=lcov --reporter=html",
+    "codecov": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisyip/defp.js.git"
+  },
+  "author": "Chris Yip <chris@yesui.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisyip/defp.js/issues"
+  },
+  "homepage": "https://github.com/chrisyip/defp.js#readme",
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "nyc": "^10.2.0",
+    "standard": "^9.0.2"
+  },
+  "dependencies": {
+    "is-plain-obj": "^1.1.0"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}
